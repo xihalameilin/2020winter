@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf7f5a8-46ce-48ee-89da-536b3259131c" name="Default Changelist" comment="一般化">
-      <change afterPath="$PROJECT_DIR$/sk/c++/singlefeaturecluster.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sk/c++/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdfreader/jsontest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/2020winter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2020winter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sk/c++/csv/totalTime.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sk/c++/csv/totalTime_9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfreader/tercenttest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdfreader/tercenttest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sk/ entertainment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +52,29 @@
       <recent name="C:\Users\lenovo\PycharmProjects\2020winter\sk\ entertainment" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.jsontest">
+    <configuration name="jsontest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdfreader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdfreader/jsontest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ladybug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +119,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tercenttest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdfreader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdfreader/tercenttest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,57 +163,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020winter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sk/c++" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sk/c++/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020winter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sk/c++" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sk/c++/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jsontest" />
+        <item itemvalue="Python.tercenttest" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.ladybug" />
         <item itemvalue="Python.singlefeaturecluster" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +185,8 @@
       <workItem from="1602652995359" duration="11233000" />
       <workItem from="1602734277737" duration="5444000" />
       <workItem from="1603001936074" duration="2456000" />
-      <workItem from="1603090898273" duration="456000" />
+      <workItem from="1603090898273" duration="1378000" />
+      <workItem from="1603092760337" duration="3327000" />
     </task>
     <task id="LOCAL-00001" summary="一般化">
       <created>1602676639897</created>
@@ -207,7 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="一般化" />
-    <option name="LAST_COMMIT_MESSAGE" value="一般化" />
+    <MESSAGE value="10.19 push" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.19 push" />
   </component>
   <component name="WindowStateProjectService">
     <state x="878" y="265" key="CommitChangelistDialog2" timestamp="1603091393566">
@@ -218,22 +222,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="715" y="561" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602742772735" />
-    <state width="2517" height="579" key="GridCell.Tab.0.bottom" timestamp="1603004253648">
+    <state width="2517" height="578" key="GridCell.Tab.0.bottom" timestamp="1603097013249">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="579" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603004253648" />
-    <state width="2517" height="579" key="GridCell.Tab.0.center" timestamp="1603004253648">
+    <state width="2517" height="578" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603097013249" />
+    <state width="2517" height="578" key="GridCell.Tab.0.center" timestamp="1603097013249">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="579" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603004253648" />
-    <state width="2517" height="579" key="GridCell.Tab.0.left" timestamp="1603004253647">
+    <state width="2517" height="578" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603097013249" />
+    <state width="2517" height="578" key="GridCell.Tab.0.left" timestamp="1603097013249">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="579" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603004253647" />
-    <state width="2517" height="579" key="GridCell.Tab.0.right" timestamp="1603004253648">
+    <state width="2517" height="578" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603097013249" />
+    <state width="2517" height="578" key="GridCell.Tab.0.right" timestamp="1603097013249">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="579" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603004253648" />
+    <state width="2517" height="578" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603097013249" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1602742461419">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -250,10 +254,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602742461419" />
-    <state x="781" y="344" key="SettingsEditor" timestamp="1602662038835">
+    <state x="781" y="344" key="SettingsEditor" timestamp="1603093039493">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1602662038835" />
+    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1603093039493" />
     <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603091399315">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -262,7 +266,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2020winter$ladybug.coverage" NAME="ladybug Coverage Results" MODIFIED="1603003019405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/ entertainment" />
     <SUITE FILE_PATH="coverage/2020winter$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1603004253636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/ entertainment" />
+    <SUITE FILE_PATH="coverage/2020winter$tercenttest.coverage" NAME="tercenttest Coverage Results" MODIFIED="1603096400628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
     <SUITE FILE_PATH="coverage/2020winter$totalTime.coverage" NAME="totalTime Coverage Results" MODIFIED="1602671775634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />
+    <SUITE FILE_PATH="coverage/2020winter$jsontest.coverage" NAME="jsontest Coverage Results" MODIFIED="1603097013238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
     <SUITE FILE_PATH="coverage/2020winter$test.coverage" NAME="test Coverage Results" MODIFIED="1602742684557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />
     <SUITE FILE_PATH="coverage/2020winter$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1602742732689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />
     <SUITE FILE_PATH="coverage/2020winter$singlefeaturecluster.coverage" NAME="singlefeaturecluster Coverage Results" MODIFIED="1602751717002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />

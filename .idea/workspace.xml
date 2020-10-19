@@ -183,6 +183,7 @@
       <workItem from="1602652995359" duration="11233000" />
       <workItem from="1602734277737" duration="5444000" />
       <workItem from="1603001936074" duration="2456000" />
+      <workItem from="1603090898273" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="一般化">
       <created>1602676639897</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602676639897</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="10.19 push">
+      <created>1603091344622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603091344622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,10 +210,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="一般化" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="265" key="CommitChangelistDialog2" timestamp="1602676638750">
+    <state x="878" y="265" key="CommitChangelistDialog2" timestamp="1603091393566">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="878" y="265" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1602676638750" />
+    <state x="878" y="265" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1603091393566" />
     <state x="715" y="561" key="FileChooserDialogImpl" timestamp="1602742772735">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -246,10 +254,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1602662038835" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1602676641650">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603091399315">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1602676641650" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603091399315" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2020winter$ladybug.coverage" NAME="ladybug Coverage Results" MODIFIED="1603003019405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/ entertainment" />

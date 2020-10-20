@@ -60,6 +60,7 @@ try:
     # req.from_json_string(params)
 
     resp = client.TableOCR(req)
+    print(resp)
     print(resp.to_json_string())
     data = base64.b64decode(resp.Data)
     name = '腾讯云表格识别结果.xlsx'

@@ -5,7 +5,7 @@ import time
 #需要修改这个值 表示你想写入txt的本机地址
 destination = "C:\\Users\\hp\\Desktop\\ids.txt"
 #这个值表示要多少个id
-resultCount = 100
+resultCount = 300
 
 def spider():
     print("------------------方法开始---------------------")

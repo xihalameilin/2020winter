@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cf7f5a8-46ce-48ee-89da-536b3259131c" name="Default Changelist" comment="一般化">
+      <change afterPath="$PROJECT_DIR$/camelot/2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camelot/5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camelot/hhhhh.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camelot/t.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camelot/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/classTable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/final.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/final2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/hh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/t.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdfreader/hh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfreader/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/pdfreader/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfreader/tercenttest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdfreader/tercenttest.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="8ebac7e0-f9ac-45cd-8445-c16939a0628e" />
+  <component name="ProjectId" id="1ir5DvoQ2x6k9GwjqBPCUtV8QJu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/opencv" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\camelot" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pdfreader" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\sk\ entertainment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pdfreader" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\camelot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="final2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/final2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tercenttest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdfreader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdfreader/tercenttest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/camelot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/camelot/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/test5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.tercenttest" />
+        <item itemvalue="Python.final2" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cf7f5a8-46ce-48ee-89da-536b3259131c" name="Default Changelist" comment="" />
+      <created>1602652757646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602652757646</updated>
+      <workItem from="1602652759176" duration="18000" />
+      <workItem from="1602652995359" duration="11233000" />
+      <workItem from="1602734277737" duration="5444000" />
+      <workItem from="1603001936074" duration="2456000" />
+      <workItem from="1603090898273" duration="1378000" />
+      <workItem from="1603092760337" duration="3633000" />
+      <workItem from="1603169921885" duration="317000" />
+      <workItem from="1603246772515" duration="97000" />
+      <workItem from="1603247042773" duration="17316000" />
+      <workItem from="1603341075980" duration="13192000" />
+    </task>
+    <task id="LOCAL-00001" summary="一般化">
+      <created>1602676639897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602676639897</updated>
+    </task>
+    <task id="LOCAL-00002" summary="10.19 push">
+      <created>1603091344622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603091344622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="一般化" />
+    <MESSAGE value="10.19 push" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.19 push" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603264758134">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603264758134" />
+    <state x="878" y="265" key="CommitChangelistDialog2" timestamp="1603091393566">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="265" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1603091393566" />
+    <state x="715" y="561" key="FileChooserDialogImpl" timestamp="1602742772735">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="715" y="561" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602742772735" />
+    <state width="1236" height="345" key="GridCell.Tab.0.bottom" timestamp="1603357358662">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="345" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603357358662" />
+    <state width="1236" height="345" key="GridCell.Tab.0.center" timestamp="1603357358662">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="345" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603357358662" />
+    <state width="1236" height="345" key="GridCell.Tab.0.left" timestamp="1603357358661">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="345" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603357358661" />
+    <state width="1236" height="345" key="GridCell.Tab.0.right" timestamp="1603357358662">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="345" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603357358662" />
+    <state width="1236" height="488" key="GridCell.Tab.1.bottom" timestamp="1603355247200">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603355247200" />
+    <state width="1236" height="488" key="GridCell.Tab.1.center" timestamp="1603355247200">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="488" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603355247200" />
+    <state width="1236" height="488" key="GridCell.Tab.1.left" timestamp="1603355247200">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="488" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603355247200" />
+    <state width="1236" height="488" key="GridCell.Tab.1.right" timestamp="1603355247200">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="488" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603355247200" />
+    <state x="1296" y="344" key="SettingsEditor" timestamp="1603357304661">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1296" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1603357304661" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603091399315">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603091399315" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603266041556">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603266041556" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2020winter$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1603250265101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1603265024892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$svm6.coverage" NAME="svm6 Coverage Results" MODIFIED="1603343137554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
+    <SUITE FILE_PATH="coverage/2020winter$ladybug.coverage" NAME="ladybug Coverage Results" MODIFIED="1603003019405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/ entertainment" />
+    <SUITE FILE_PATH="coverage/2020winter$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1603357358652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$totalTime.coverage" NAME="totalTime Coverage Results" MODIFIED="1602671775634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />
+    <SUITE FILE_PATH="coverage/2020winter$final.coverage" NAME="final Coverage Results" MODIFIED="1603265523248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$svm2.coverage" NAME="svm2 Coverage Results" MODIFIED="1603343099600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
+    <SUITE FILE_PATH="coverage/2020winter$final2.coverage" NAME="final2 Coverage Results" MODIFIED="1603355209934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$singlefeaturecluster.coverage" NAME="singlefeaturecluster Coverage Results" MODIFIED="1602751717002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />
+    <SUITE FILE_PATH="coverage/2020winter$svm7.coverage" NAME="svm7 Coverage Results" MODIFIED="1603343152999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
+    <SUITE FILE_PATH="coverage/2020winter$tercenttest.coverage" NAME="tercenttest Coverage Results" MODIFIED="1603355273380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
+    <SUITE FILE_PATH="coverage/2020winter$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1603264836401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$jsontest.coverage" NAME="jsontest Coverage Results" MODIFIED="1603097013238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
+    <SUITE FILE_PATH="coverage/2020winter$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1603344878782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$svm5.coverage" NAME="svm5 Coverage Results" MODIFIED="1603343123640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
+    <SUITE FILE_PATH="coverage/2020winter$spidertest3.coverage" NAME="spidertest3 Coverage Results" MODIFIED="1603170238944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/2020winter$test.coverage" NAME="test Coverage Results" MODIFIED="1603351780982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/camelot" />
+    <SUITE FILE_PATH="coverage/2020winter$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1603249283870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+  </component>
+</project>

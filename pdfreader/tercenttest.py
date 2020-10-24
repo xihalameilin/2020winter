@@ -55,7 +55,7 @@ try:
 
     req = models.TableOCRRequest()
 
-    params = imgget("4.png")
+    params = imgget("22.png")
     req.ImageBase64 = str(params)
     # req.from_json_string(params)
 
@@ -63,7 +63,7 @@ try:
     print(resp)
     print(resp.to_json_string())
     data = base64.b64decode(resp.Data)
-    name = '腾讯云表格识别结果.xlsx'
+    name = '腾讯云表格识别结果3.xlsx'
     save(data, name)
 
 except TencentCloudSDKException as err:

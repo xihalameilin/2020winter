@@ -140,7 +140,7 @@ def show(img):
     cv2.destroyAllWindows()
 
 # 0 黑色  255 白色
-img = cv2.imread('2.png', 0)
+img = cv2.imread('test2.png', 0)
 ret, img = cv2.threshold(img, 180, 255, cv2.THRESH_BINARY)
 shape = img.shape
 print(shape)

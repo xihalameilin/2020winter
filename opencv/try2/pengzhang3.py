@@ -1,11 +1,13 @@
 import cv2 as cv
 
-
+rect_width = 6
+rect_height = 2
+# 新的算法
 # 图片膨胀
 def dilate_demo(image):
     gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
     ret, binary = cv.threshold(gray, 0, 255, cv.THRESH_BINARY_INV | cv.THRESH_OTSU)
-    kernel = cv.getStructuringElement(cv.MORPH_RECT, (6, 2))
+    kernel = cv.getStructuringElement(cv.MORPH_RECT, (rect_width, rect_height))
     dst = cv.dilate(binary, kernel)
     kernel2 = cv.getStructuringElement(cv.MORPH_RECT, (2, 6))
     dst = cv.dilate(dst, kernel2)
@@ -31,6 +33,22 @@ def get_vertical_lines(image, ratio=0.94):
     return vertical_lines
 
 
+def get_vertical_lines_2(image, line_count):
+    row = image.shape[0]
+    col = image.shape[1]
+    vertical_lines = []
+    for i in range(col):
+        count = 0
+        for j in range(row):
+            px = image[j, i]
+            if px == 0:
+                count += 1
+        if count > row - max(rect_width, rect_height) * line_count * 1.6:
+            vertical_lines.append(i)
+    print("一共找到如下竖线" + str(vertical_lines))
+    return vertical_lines
+
+
 # 获取横线 调用一次
 def get_level_lines(image, ratio=0.9):
     row = image.shape[0]
@@ -48,7 +66,7 @@ def get_level_lines(image, ratio=0.9):
     return level_lines
 
 
-def get_vertical_list(vertical_list):
+def get_continuous_lines(vertical_list):
     res_list = []
     i = 0
     while i < len(vertical_list):
@@ -62,7 +80,7 @@ def get_vertical_list(vertical_list):
                 break
         i += 1
         res_list.append(temp)
-    print("一共找到{}条竖线".format(str(len(res_list))))
+    print("一共找到{}条连续线".format(str(len(res_list))))
     print(res_list)
     return res_list
 
@@ -104,18 +122,18 @@ def getxend(img, lines):
             xEnd = i
             break
     return xEnd
-src = cv.imread("../7.png", 0)
+src = cv.imread("../test3.png", 0)
 ret, binary = cv.threshold(src, 200, 255, cv.THRESH_BINARY)
 
 stop_list = get_vertical_lines(binary, ratio=0.9)
-level_lines = get_level_lines(binary)
+level_lines = get_level_lines(binary, ratio=0.9)
 x_begin = getxbegin(binary, level_lines)
 x_end = getxend(binary, level_lines)
 
-src = cv.imread("../7.png")
+src = cv.imread("../test3.png")
 gray = dilate_demo(src)
-vertical_lines = get_vertical_lines(gray, ratio=0.7)
-res_list = get_vertical_list(vertical_lines)
+vertical_lines = get_vertical_lines_2(gray, len(get_continuous_lines(level_lines)))
+res_list = get_continuous_lines(vertical_lines)
 draw(src, res_list=res_list, stop_list=stop_list, level_lines=level_lines)
 
 if len(res_list) >= 2:

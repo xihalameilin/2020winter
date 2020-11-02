@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 import copy
+import pytesseract
 
 
 # def big_image_binary(image):
@@ -56,17 +57,25 @@ def clear_original_lines(image):
             vertical_original_lines.append(i)
             image[0:row, i] = 255
     print("一共找到如下原图中的竖线" + str(vertical_original_lines))
+    return image, level_original_lines, vertical_original_lines
+
+
+def clear(image, level_original_lines, vertical_original_lines):
+    print(image.shape)
+    row = image.shape[0]
+    col = image.shape[1]
+    print(image[0, 1])
+    for i in level_original_lines:
+        low = 0 if i-1 < 0 else i-1
+        high = col if i+2 > col else i+2
+        for j in range(low, high):
+            image[j, 0:col] = [255, 255, 255]
+    for i in vertical_original_lines:
+        low = 0 if i - 1 < 0 else i - 1
+        high = row if i + 2 > row else i + 2
+        for j in range(low, high):
+            image[0:row, j] = [255, 255, 255]
     return image
-
-
-# def clear(image, level_original_lines, vertical_original_lines):
-#     row = image.shape[0]
-#     col = image.shape[1]
-#     for i in level_original_lines:
-#         image[0:row, i] = 255
-#     for i in vertical_original_lines:
-#         image[i, 0:col] = 255
-#     return image
 
 
 # 找竖直的空白区域
@@ -84,9 +93,9 @@ def big_image_binary(image):
         if dev < 30 and mean > 250:
             gray[0:row_, col:col + col_step] = 0   # 区域变黑
             vertical_lines.append(col)
-        else:
-            ret, dst = cv.threshold(roi, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
-            gray[0:row_, col:col + col_step] = dst
+        # else:
+        #     ret, dst = cv.threshold(roi, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
+        #     gray[0:row_, col:col + col_step] = dst
     return gray, vertical_lines, col_step
 
 
@@ -105,9 +114,9 @@ def big_image_binary_2(image):
         if dev < 30 and mean > 250:
             level_lines.append(row)
             gray[row:row + row_step, 0: col_] = 0   # 区域变黑
-        else:
-            ret, dst = cv.threshold(roi, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
-            gray[row:row + row_step, 0: col_] = dst
+        # else:
+        #     ret, dst = cv.threshold(roi, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
+        #     gray[row:row + row_step, 0: col_] = dst
     return gray, level_lines, row_step
 
 
@@ -141,8 +150,15 @@ def draw_lines(image, vertical_lines_to_be_draw, level_lines_to_be_draw):
     return image
 
 
-img = cv.imread("../7.png")
-no_lines_image = clear_original_lines(img)
+img = cv.imread("../1.png")
+img2 = img.copy()
+no_lines_image, level_original_lines, vertical_original_lines = clear_original_lines(img)
+
+to_be_draw = clear(img2, level_original_lines, vertical_original_lines)
+
+# cv.imshow("temp", to_be_draw)
+# cv.waitKey(0)
+# cv.destroyAllWindows()
 no_lines_image_copy1 = copy.deepcopy(no_lines_image)
 no_lines_image_copy2 = copy.deepcopy(no_lines_image)
 
@@ -152,8 +168,15 @@ image2, level_lines, row_step = big_image_binary_2(no_lines_image_copy1)
 vertical_lines_to_be_draw = get_continuous_list(vertical_lines, col_step)
 level_lines_to_be_draw = get_continuous_list(level_lines, row_step)
 
-res = draw_lines(no_lines_image_copy2, vertical_lines_to_be_draw, level_lines_to_be_draw)
-cv.imshow("res", res)
+res = draw_lines(to_be_draw, vertical_lines_to_be_draw, level_lines_to_be_draw)
+cv.imshow("res", to_be_draw[35:55, 3:200])
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
+text = pytesseract.image_to_string(to_be_draw[35:55, 3:200])
+print(text)
+exclude_char_list = '.:\\|\'\"?![],()~@#$%^&*_+-={};<>/¥\n'
+text = ''.join([x for x in text if x not in exclude_char_list])
+print(text)
+cv.imwrite("post_7.png", res)
 cv.waitKey(0)
 cv.destroyAllWindows()
 

@@ -55,7 +55,7 @@ try:
 
     req = models.TableOCRRequest()
 
-    params = imgget("test2.png")
+    params = imgget("post_7.png")
     req.ImageBase64 = str(params)
     # req.from_json_string(params)
 

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf7f5a8-46ce-48ee-89da-536b3259131c" name="Default Changelist" comment="一般化">
-      <change afterPath="$PROJECT_DIR$/tensorflow2/classification/fashionmnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow2/parameters-tuning/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow2/parameters-tuning/tune.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow2/regression/california_housing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/try2/ImageOCR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/try2/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/try2/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdfreader/post_7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv/try2/kongbaiquyu.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv/try2/kongbaiquyu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfreader/tercenttest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdfreader/tercenttest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfreader/腾讯云表格识别结果4.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pytesseract" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pdfreader" />
+      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\camelot" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pdfreader" />
       <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pytesseract" />
@@ -53,15 +62,9 @@
       <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv\try2" />
       <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pytesseract" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pdfreader" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\camelot" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.tune">
-    <configuration name="california_housing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ImageOCR">
+    <configuration name="ImageOCR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,12 +72,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow2/regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv/try2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow2/regression/california_housing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/ImageOCR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fashionmnist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kongbaiquyu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,12 +94,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow2/classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv/try2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow2/classification/fashionmnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/kongbaiquyu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,12 +138,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow2/parameters-tuning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv/try2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow2/parameters-tuning/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/test4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow2/parameters-tuning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv/try2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow2/parameters-tuning/tune.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/test5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tune" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.california_housing" />
-        <item itemvalue="Python.fashionmnist" />
+        <item itemvalue="Python.ImageOCR" />
+        <item itemvalue="Python.test5" />
+        <item itemvalue="Python.kongbaiquyu" />
         <item itemvalue="Python.tercenttest" />
+        <item itemvalue="Python.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +212,8 @@
       <workItem from="1604025940804" duration="468000" />
       <workItem from="1604029097349" duration="680000" />
       <workItem from="1604048711043" duration="5744000" />
-      <workItem from="1604125396613" duration="6751000" />
+      <workItem from="1604125396613" duration="7322000" />
+      <workItem from="1604302423571" duration="11022000" />
     </task>
     <task id="LOCAL-00001" summary="一般化">
       <created>1602676639897</created>
@@ -249,38 +253,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="715" y="561" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603974591052" />
-    <state width="1104" height="515" key="GridCell.Tab.0.bottom" timestamp="1604135109336">
+    <state width="2517" height="395" key="GridCell.Tab.0.bottom" timestamp="1604318986509">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1104" height="515" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604135109336" />
-    <state width="1104" height="515" key="GridCell.Tab.0.center" timestamp="1604135109336">
+    <state width="2517" height="395" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986509" />
+    <state width="2517" height="395" key="GridCell.Tab.0.center" timestamp="1604318986509">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1104" height="515" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604135109336" />
-    <state width="1104" height="515" key="GridCell.Tab.0.left" timestamp="1604135109336">
+    <state width="2517" height="395" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986509" />
+    <state width="2517" height="395" key="GridCell.Tab.0.left" timestamp="1604318986508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1104" height="515" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604135109336" />
-    <state width="1104" height="515" key="GridCell.Tab.0.right" timestamp="1604135109336">
+    <state width="2517" height="395" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986508" />
+    <state width="2517" height="395" key="GridCell.Tab.0.right" timestamp="1604318986509">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1104" height="515" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604135109336" />
-    <state width="2517" height="491" key="GridCell.Tab.1.bottom" timestamp="1603860541147">
+    <state width="2517" height="395" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986509" />
+    <state width="2517" height="491" key="GridCell.Tab.1.bottom" timestamp="1604306571702">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1603860541147" />
-    <state width="2517" height="491" key="GridCell.Tab.1.center" timestamp="1603860541147">
+    <state width="2517" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
+    <state width="2517" height="491" key="GridCell.Tab.1.center" timestamp="1604306571702">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1603860541147" />
-    <state width="2517" height="491" key="GridCell.Tab.1.left" timestamp="1603860541147">
+    <state width="2517" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
+    <state width="2517" height="491" key="GridCell.Tab.1.left" timestamp="1604306571702">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1603860541147" />
-    <state width="2517" height="491" key="GridCell.Tab.1.right" timestamp="1603860541147">
+    <state width="2517" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
+    <state width="2517" height="491" key="GridCell.Tab.1.right" timestamp="1604306571702">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1603860541147" />
+    <state width="2517" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
     <state x="1296" y="344" key="SettingsEditor" timestamp="1604029305804">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -299,23 +303,24 @@
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603266041556" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2020winter$tune.coverage" NAME="tune Coverage Results" MODIFIED="1604134843465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/parameters-tuning" />
+    <SUITE FILE_PATH="coverage/2020winter$tune.coverage" NAME="tune Coverage Results" MODIFIED="1604135249833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/parameters-tuning" />
     <SUITE FILE_PATH="coverage/2020winter$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1604135109326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/parameters-tuning" />
     <SUITE FILE_PATH="coverage/2020winter$qingshi.coverage" NAME="qingshi Coverage Results" MODIFIED="1603697876815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$final.coverage" NAME="final Coverage Results" MODIFIED="1603265523248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
     <SUITE FILE_PATH="coverage/2020winter$svm2.coverage" NAME="svm2 Coverage Results" MODIFIED="1603343099600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
     <SUITE FILE_PATH="coverage/2020winter$final2.coverage" NAME="final2 Coverage Results" MODIFIED="1603701096092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
-    <SUITE FILE_PATH="coverage/2020winter$kongbaiquyu.coverage" NAME="kongbaiquyu Coverage Results" MODIFIED="1603863588837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
+    <SUITE FILE_PATH="coverage/2020winter$kongbaiquyu.coverage" NAME="kongbaiquyu Coverage Results" MODIFIED="1604306781949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$2_1.coverage" NAME="2.1 Coverage Results" MODIFIED="1603868648007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
+    <SUITE FILE_PATH="coverage/2020winter$ImageOCR.coverage" NAME="ImageOCR Coverage Results" MODIFIED="1604318986497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$california_housing.coverage" NAME="california_housing Coverage Results" MODIFIED="1604129748517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/regression" />
     <SUITE FILE_PATH="coverage/2020winter$jsontest.coverage" NAME="jsontest Coverage Results" MODIFIED="1603097013238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
-    <SUITE FILE_PATH="coverage/2020winter$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1603344878782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1604314702629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$svm5.coverage" NAME="svm5 Coverage Results" MODIFIED="1603343123640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
     <SUITE FILE_PATH="coverage/2020winter$textclassification2.coverage" NAME="textclassification2 Coverage Results" MODIFIED="1603802289508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
     <SUITE FILE_PATH="coverage/2020winter$test.coverage" NAME="test Coverage Results" MODIFIED="1604029556209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytesseract" />
     <SUITE FILE_PATH="coverage/2020winter$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1603249283870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
     <SUITE FILE_PATH="coverage/2020winter$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1603250265101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
-    <SUITE FILE_PATH="coverage/2020winter$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1603265024892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/2020winter$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1604304400602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$textclassification.coverage" NAME="textclassification Coverage Results" MODIFIED="1603801327314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
     <SUITE FILE_PATH="coverage/2020winter$svm6.coverage" NAME="svm6 Coverage Results" MODIFIED="1603343137554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
     <SUITE FILE_PATH="coverage/2020winter$ladybug.coverage" NAME="ladybug Coverage Results" MODIFIED="1603003019405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/ entertainment" />
@@ -327,7 +332,7 @@
     <SUITE FILE_PATH="coverage/2020winter$kaiyunsuan.coverage" NAME="kaiyunsuan Coverage Results" MODIFIED="1603698854047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$helloword.coverage" NAME="helloword Coverage Results" MODIFIED="1603530155557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
     <SUITE FILE_PATH="coverage/2020winter$svm7.coverage" NAME="svm7 Coverage Results" MODIFIED="1603343152999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
-    <SUITE FILE_PATH="coverage/2020winter$tercenttest.coverage" NAME="tercenttest Coverage Results" MODIFIED="1604029688214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
+    <SUITE FILE_PATH="coverage/2020winter$tercenttest.coverage" NAME="tercenttest Coverage Results" MODIFIED="1604305061028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
     <SUITE FILE_PATH="coverage/2020winter$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1603705308802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$pengzhang2.coverage" NAME="pengzhang2 Coverage Results" MODIFIED="1603705948800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
     <SUITE FILE_PATH="coverage/2020winter$spidertest3.coverage" NAME="spidertest3 Coverage Results" MODIFIED="1603170238944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />

@@ -66,7 +66,7 @@ class ImageTableOCR(object):
             roi = gray[0:row_, col:col + col_step]
             dev = np.std(roi)
             mean = np.mean(roi)
-            if dev < 30 and mean > 250:
+            if dev < 30 and mean > 245:
                 vertical_lines.append(col)
         return vertical_lines, col_step
 
@@ -80,45 +80,43 @@ class ImageTableOCR(object):
             roi = gray[row:row + row_step, 0: col_]
             dev = np.std(roi)
             mean = np.mean(roi)
-            if dev < 30 and mean > 250:
+            if dev < 30 and mean > 245:
                 level_lines.append(row)
         return level_lines, row_step
 
     # 得到连续的区域
     def get_lines_to_be_draw(self):
-        print("begin")
-        # vertical_lines, col_step = self.get_vertical_areas()
-        # vertical_line_list = []
-        # i = 0
-        # while i < len(vertical_lines):
-        #     standard = vertical_lines[i]
-        #     temp = [standard]
-        #     while i + 1 < len(vertical_lines) and vertical_lines[i] + col_step == vertical_lines[i + 1]:
-        #         temp.append(vertical_lines[i+1])
-        #         i += 1
-        #     if len(temp) > 1:
-        #         vertical_line_list.append(int((temp[0] + temp[-1])/2))
-        #     elif len(temp) == 1:
-        #         vertical_line_list.append(temp[0])
-        #     i += 1
-        #
-        # horizontal_lines, row_step = self.get_horizontal_areas()
-        # horizontal_line_list = []
-        # i = 0
-        # while i < len(horizontal_lines):
-        #     standard = horizontal_lines[i]
-        #     temp = [standard]
-        #     while i + 1 < len(horizontal_lines) and horizontal_lines[i] + row_step == horizontal_lines[i + 1]:
-        #         temp.append(horizontal_lines[i+1])
-        #         i += 1
-        #     if len(temp) > 1:
-        #         horizontal_line_list.append(int((temp[0] + temp[-1]) / 2))
-        #     elif len(temp) == 1:
-        #         horizontal_line_list.append(temp[0])
-        #     i += 1
-        print("end")
-        #return horizontal_line_list, vertical_line_list
-        return [], []
+        vertical_lines, col_step = self.get_vertical_areas()
+        vertical_line_list = []
+        i = 0
+        while i < len(vertical_lines):
+            standard = vertical_lines[i]
+            temp = [standard]
+            while i + 1 < len(vertical_lines) and vertical_lines[i] + col_step == vertical_lines[i + 1]:
+                temp.append(vertical_lines[i+1])
+                i += 1
+            if len(temp) > 1:
+                vertical_line_list.append(int((temp[0] + temp[-1])/2))
+            elif len(temp) == 1:
+                vertical_line_list.append(temp[0])
+            i += 1
+
+        horizontal_lines, row_step = self.get_horizontal_areas()
+        horizontal_line_list = []
+        i = 0
+        while i < len(horizontal_lines):
+            standard = horizontal_lines[i]
+            temp = [standard]
+            while i + 1 < len(horizontal_lines) and horizontal_lines[i] + row_step == horizontal_lines[i + 1]:
+                temp.append(horizontal_lines[i+1])
+                i += 1
+            if len(temp) > 1:
+                horizontal_line_list.append(int((temp[0] + temp[-1]) / 2))
+            elif len(temp) == 1:
+                horizontal_line_list.append(temp[0])
+            i += 1
+        return horizontal_line_list, vertical_line_list
+
 
     def draw(self):
         level_lines_to_be_draw, vertical_lines_to_be_draw = self.get_lines_to_be_draw()
@@ -127,7 +125,7 @@ class ImageTableOCR(object):
             cv2.line(image, (i, level_lines_to_be_draw[0]), (i, level_lines_to_be_draw[-1]), (0, 0, 0), 1)
         for i in level_lines_to_be_draw:
             cv2.line(image, (vertical_lines_to_be_draw[0], i), (vertical_lines_to_be_draw[-1], i), (0, 0, 0), 1)
-        self.show_image()
+
         return image
 
     # 顶点检测
@@ -171,6 +169,7 @@ class ImageTableOCR(object):
         image = self.blank_image
         # 特殊字符列表
         special_char_list = '.:\\|\'\"?![],()~@#$%^&*_+-={};<>/¥\n'
+        print(self.vertical_lines)
         steps = (len(self.vertical_lines) - 1) * (len(self.horizontal_lines) - 1)
         for i in range(steps):
             rect1 = rects[i]
@@ -188,5 +187,7 @@ class ImageTableOCR(object):
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
-ocr = ImageTableOCR("../1.png")
-ocr.show_image()
+if __name__ == '__main__' :
+    ocr = ImageTableOCR("../1.png")
+    ocr.show_image()
+    ocr.ocr()

@@ -1,20 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf7f5a8-46ce-48ee-89da-536b3259131c" name="Default Changelist" comment="一般化">
-      <change afterPath="$PROJECT_DIR$/opencv/try2/ImageOCR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv/try2/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv/try2/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfreader/post_7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/try2/kongbaiquyu.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv/try2/kongbaiquyu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfreader/tercenttest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdfreader/tercenttest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfreader/腾讯云表格识别结果4.xlsx" beforeDir="false" />
+    <list default="true" id="c56fc517-f6e2-4996-9bda-d73675bba4cb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/2020winter.iml" afterPath="$PROJECT_DIR$/.idea/2020winter.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/opencv/try2/ImageOCR.py" afterPath="$PROJECT_DIR$/opencv/try2/ImageOCR.py" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="pengzhang3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/try2/pengzhang3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2016">
+              <caret line="84" column="19" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="84" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kongbaiquyu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/try2/kongbaiquyu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageOCR.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opencv/try2/ImageOCR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="191" column="13" lean-forward="true" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/5.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/7.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/test2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,49 +112,91 @@
       </list>
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>C:\Users\hp\PycharmProjects\2020winter</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="8ebac7e0-f9ac-45cd-8445-c16939a0628e" />
-  <component name="ProjectId" id="1ir5DvoQ2x6k9GwjqBPCUtV8QJu" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pdfreader/alitest.py" />
+        <option value="$PROJECT_DIR$/opencv/try2/pengzhang2.py" />
+        <option value="$PROJECT_DIR$/opencv/try2/test3.py" />
+        <option value="$PROJECT_DIR$/opencv/try2/pengzhang3.py" />
+        <option value="$PROJECT_DIR$/opencv/try2/lunkuo.py" />
+        <option value="$PROJECT_DIR$/opencv/try2/kongbaiquyu.py" />
+        <option value="$PROJECT_DIR$/opencv/try2/ImageOCR.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2020winter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2020winter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2020winter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2020winter" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2020winter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2020winter" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv" type="462c0819:PsiDirectoryNode" />
+              <item name="try2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pdfreader" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tableImageParser_tx" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pytesseract" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pdfreader" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\camelot" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pdfreader" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\pytesseract" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\tensorflow\5" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv\try2" />
-      <recent name="C:\Users\lenovo\PycharmProjects\2020winter\opencv" />
-    </key>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.ImageOCR">
-    <configuration name="ImageOCR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020winter" />
+    <configuration name="ImageOCR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -76,18 +207,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="2020winter" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/ImageOCR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="kongbaiquyu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020winter" />
+    <configuration name="kongbaiquyu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -98,40 +225,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="2020winter" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/kongbaiquyu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="tercenttest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020winter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdfreader" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdfreader/tercenttest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020winter" />
+    <configuration name="lunkuo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -142,18 +243,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/test4.py" />
+      <module name="2020winter" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/lunkuo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020winter" />
+    <configuration name="pengzhang3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -164,179 +261,424 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/test5.py" />
+      <module name="2020winter" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/pengzhang3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv/try2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2020winter" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/try2/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.test3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pengzhang3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.lunkuo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.kongbaiquyu" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ImageOCR" />
+    </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.ImageOCR" />
-        <item itemvalue="Python.test5" />
-        <item itemvalue="Python.kongbaiquyu" />
-        <item itemvalue="Python.tercenttest" />
-        <item itemvalue="Python.test4" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.ImageOCR" />
+        <item index="1" class="java.lang.String" itemvalue="Python.kongbaiquyu" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lunkuo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pengzhang3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test3" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8cf7f5a8-46ce-48ee-89da-536b3259131c" name="Default Changelist" comment="" />
-      <created>1602652757646</created>
+      <changelist id="c56fc517-f6e2-4996-9bda-d73675bba4cb" name="Default" comment="" />
+      <created>1603419887005</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602652757646</updated>
-      <workItem from="1602652759176" duration="18000" />
-      <workItem from="1602652995359" duration="11233000" />
-      <workItem from="1602734277737" duration="5444000" />
-      <workItem from="1603001936074" duration="2456000" />
-      <workItem from="1603090898273" duration="1378000" />
-      <workItem from="1603092760337" duration="3633000" />
-      <workItem from="1603169921885" duration="317000" />
-      <workItem from="1603246772515" duration="97000" />
-      <workItem from="1603247042773" duration="17316000" />
-      <workItem from="1603341075980" duration="13192000" />
-      <workItem from="1603520511647" duration="1443000" />
-      <workItem from="1603530116788" duration="772000" />
-      <workItem from="1603679293604" duration="15485000" />
-      <workItem from="1603799724820" duration="4135000" />
-      <workItem from="1603857666192" duration="6469000" />
-      <workItem from="1603953319584" duration="6611000" />
-      <workItem from="1604024260281" duration="4000" />
-      <workItem from="1604025940804" duration="468000" />
-      <workItem from="1604029097349" duration="680000" />
-      <workItem from="1604048711043" duration="5744000" />
-      <workItem from="1604125396613" duration="7322000" />
-      <workItem from="1604302423571" duration="11022000" />
+      <updated>1603419887005</updated>
     </task>
-    <task id="LOCAL-00001" summary="一般化">
-      <created>1602676639897</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1602676639897</updated>
-    </task>
-    <task id="LOCAL-00002" summary="10.19 push">
-      <created>1603091344622</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1603091344622</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22357294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.350057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="一般化" />
-    <MESSAGE value="10.19 push" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.19 push" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603264758134">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603264758134" />
-    <state x="878" y="265" key="CommitChangelistDialog2" timestamp="1603091393566">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="878" y="265" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1603091393566" />
-    <state x="715" y="561" key="FileChooserDialogImpl" timestamp="1603974591052">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="715" y="561" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603974591052" />
-    <state width="2517" height="395" key="GridCell.Tab.0.bottom" timestamp="1604318986509">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="395" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986509" />
-    <state width="2517" height="395" key="GridCell.Tab.0.center" timestamp="1604318986509">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="395" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986509" />
-    <state width="2517" height="395" key="GridCell.Tab.0.left" timestamp="1604318986508">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="395" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986508" />
-    <state width="2517" height="395" key="GridCell.Tab.0.right" timestamp="1604318986509">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="395" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604318986509" />
-    <state width="2517" height="491" key="GridCell.Tab.1.bottom" timestamp="1604306571702">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
-    <state width="2517" height="491" key="GridCell.Tab.1.center" timestamp="1604306571702">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
-    <state width="2517" height="491" key="GridCell.Tab.1.left" timestamp="1604306571702">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
-    <state width="2517" height="491" key="GridCell.Tab.1.right" timestamp="1604306571702">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604306571702" />
-    <state x="1296" y="344" key="SettingsEditor" timestamp="1604029305804">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1296" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604029305804" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603091399315">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603091399315" />
-    <state x="1468" y="329" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604129746886">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1468" y="329" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1604129746886" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603266041556">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603266041556" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/opencv/try2/ImageOCR.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2020winter$tune.coverage" NAME="tune Coverage Results" MODIFIED="1604135249833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/parameters-tuning" />
-    <SUITE FILE_PATH="coverage/2020winter$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1604135109326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/parameters-tuning" />
-    <SUITE FILE_PATH="coverage/2020winter$qingshi.coverage" NAME="qingshi Coverage Results" MODIFIED="1603697876815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$final.coverage" NAME="final Coverage Results" MODIFIED="1603265523248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
-    <SUITE FILE_PATH="coverage/2020winter$svm2.coverage" NAME="svm2 Coverage Results" MODIFIED="1603343099600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
-    <SUITE FILE_PATH="coverage/2020winter$final2.coverage" NAME="final2 Coverage Results" MODIFIED="1603701096092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
-    <SUITE FILE_PATH="coverage/2020winter$kongbaiquyu.coverage" NAME="kongbaiquyu Coverage Results" MODIFIED="1604306781949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$2_1.coverage" NAME="2.1 Coverage Results" MODIFIED="1603868648007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
-    <SUITE FILE_PATH="coverage/2020winter$ImageOCR.coverage" NAME="ImageOCR Coverage Results" MODIFIED="1604318986497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$california_housing.coverage" NAME="california_housing Coverage Results" MODIFIED="1604129748517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/regression" />
-    <SUITE FILE_PATH="coverage/2020winter$jsontest.coverage" NAME="jsontest Coverage Results" MODIFIED="1603097013238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
-    <SUITE FILE_PATH="coverage/2020winter$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1604314702629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$svm5.coverage" NAME="svm5 Coverage Results" MODIFIED="1603343123640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
-    <SUITE FILE_PATH="coverage/2020winter$textclassification2.coverage" NAME="textclassification2 Coverage Results" MODIFIED="1603802289508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
-    <SUITE FILE_PATH="coverage/2020winter$test.coverage" NAME="test Coverage Results" MODIFIED="1604029556209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytesseract" />
-    <SUITE FILE_PATH="coverage/2020winter$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1603249283870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
-    <SUITE FILE_PATH="coverage/2020winter$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1603250265101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
-    <SUITE FILE_PATH="coverage/2020winter$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1604304400602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$textclassification.coverage" NAME="textclassification Coverage Results" MODIFIED="1603801327314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
-    <SUITE FILE_PATH="coverage/2020winter$svm6.coverage" NAME="svm6 Coverage Results" MODIFIED="1603343137554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
-    <SUITE FILE_PATH="coverage/2020winter$ladybug.coverage" NAME="ladybug Coverage Results" MODIFIED="1603003019405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/ entertainment" />
-    <SUITE FILE_PATH="coverage/2020winter$totalTime.coverage" NAME="totalTime Coverage Results" MODIFIED="1602671775634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />
-    <SUITE FILE_PATH="coverage/2020winter$singlefeaturecluster.coverage" NAME="singlefeaturecluster Coverage Results" MODIFIED="1602751717002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/c++" />
-    <SUITE FILE_PATH="coverage/2020winter$regression.coverage" NAME="regression Coverage Results" MODIFIED="1603802996106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
-    <SUITE FILE_PATH="coverage/2020winter$biankuang.coverage" NAME="biankuang Coverage Results" MODIFIED="1603680955333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$5_2.coverage" NAME="5-2 Coverage Results" MODIFIED="1603956758584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/5" />
-    <SUITE FILE_PATH="coverage/2020winter$kaiyunsuan.coverage" NAME="kaiyunsuan Coverage Results" MODIFIED="1603698854047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$helloword.coverage" NAME="helloword Coverage Results" MODIFIED="1603530155557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
-    <SUITE FILE_PATH="coverage/2020winter$svm7.coverage" NAME="svm7 Coverage Results" MODIFIED="1603343152999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk/supportvectormachine" />
-    <SUITE FILE_PATH="coverage/2020winter$tercenttest.coverage" NAME="tercenttest Coverage Results" MODIFIED="1604305061028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdfreader" />
-    <SUITE FILE_PATH="coverage/2020winter$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1603705308802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$pengzhang2.coverage" NAME="pengzhang2 Coverage Results" MODIFIED="1603705948800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$spidertest3.coverage" NAME="spidertest3 Coverage Results" MODIFIED="1603170238944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
-    <SUITE FILE_PATH="coverage/2020winter$pengzhang.coverage" NAME="pengzhang Coverage Results" MODIFIED="1603694680522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv/try2" />
-    <SUITE FILE_PATH="coverage/2020winter$fashionmnist.coverage" NAME="fashionmnist Coverage Results" MODIFIED="1604129140402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2/classification" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pdfreader/jsontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/alitest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python36/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8280">
+          <caret line="347" column="0" lean-forward="false" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/tercenttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/jsontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/alitest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python36/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8328">
+          <caret line="347" column="0" lean-forward="false" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/tercenttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/jsontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/tercenttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/jsontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/python36/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8280">
+          <caret line="347" column="0" lean-forward="false" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfreader/alitest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/qingshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/pengzhang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/python36/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/lunkuo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/final2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3432">
+          <caret line="143" column="52" lean-forward="false" selection-start-line="143" selection-start-column="52" selection-end-line="143" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/pengzhang2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/pengzhang3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="84" column="19" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="84" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/test2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/kongbaiquyu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/try2/ImageOCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="191" column="13" lean-forward="true" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

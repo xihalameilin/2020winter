@@ -170,7 +170,7 @@ level_lines_to_be_draw = get_continuous_list(level_lines, row_step)
 
 res = draw_lines(to_be_draw, vertical_lines_to_be_draw, level_lines_to_be_draw)
 cv.imshow("res", to_be_draw[35:55, 3:200])
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 text = pytesseract.image_to_string(to_be_draw[35:55, 3:200])
 print(text)
 exclude_char_list = '.:\\|\'\"?![],()~@#$%^&*_+-={};<>/¥\n'

@@ -14,6 +14,9 @@ class ImageTableOCR(object):
         self.vertical_lines = self.vertical_line_detect()
         self.blank_image = self.clear_lines()
 
+        self.horizontal_line_list = []
+        self.vertical_line_list = []
+
     # 横向直线检测
     def horizontal_line_detect(self):
         h, w = self.gray.shape
@@ -87,6 +90,7 @@ class ImageTableOCR(object):
     # 得到连续的区域
     def get_lines_to_be_draw(self):
         vertical_lines, col_step = self.get_vertical_areas()
+
         vertical_line_list = []
         i = 0
         while i < len(vertical_lines):
@@ -102,6 +106,7 @@ class ImageTableOCR(object):
             i += 1
 
         horizontal_lines, row_step = self.get_horizontal_areas()
+
         horizontal_line_list = []
         i = 0
         while i < len(horizontal_lines):
@@ -115,6 +120,8 @@ class ImageTableOCR(object):
             elif len(temp) == 1:
                 horizontal_line_list.append(temp[0])
             i += 1
+        self.horizontal_line_list = horizontal_line_list
+        self.vertical_line_list = vertical_line_list
         return horizontal_line_list, vertical_line_list
 
 
@@ -149,45 +156,66 @@ class ImageTableOCR(object):
 
     # 寻找单元格区域
     def cell_detect(self):
-        vertical_lines = self.vertical_lines
-        horizontal_lines = self.horizontal_lines
-
-        # 顶点列表
+        vertical_lines = self.vertical_line_list
+        horizontal_lines = self.horizontal_line_list
+        print(horizontal_lines)
+        print(vertical_lines)
+        self.show_image(self.blank_image)
+        # 区域列表
         rects = []
-        for i in range(0, len(vertical_lines) - 1):
-            for j in range(len(horizontal_lines) - 1):
-                rects.append((vertical_lines[i][0], horizontal_lines[j][1],
-                              vertical_lines[i + 1][0], horizontal_lines[j + 1][1]))
+        # for i in range(1, len(vertical_lines) - 1):
+        #     for j in range(1, len(horizontal_lines) - 1):
+        #         rects.append((horizontal_lines[j], horizontal_lines[j + 1],
+        #                       vertical_lines[i], vertical_lines[i + 1]))
+        #         row_label_image = self.blank_image[horizontal_lines[j]: horizontal_lines[j + 1],
+        #                       vertical_lines[0]: vertical_lines[1]]
+        #         col_label_image = self.blank_image[horizontal_lines[0]: horizontal_lines[1],
+        #                       vertical_lines[i]: vertical_lines[i + 1]]
+        #         content_image = self.blank_image[horizontal_lines[j]:horizontal_lines[j + 1],
+        #                       vertical_lines[i]: vertical_lines[i + 1]]
+        #         self.show_image(row_label_image)
+        #         self.show_image(col_label_image)
+        #         self.show_image(content_image)
 
-        print(len(rects))
-        print(str(rects))
+        res = []
+        for i in range(0, len(horizontal_lines) - 1):
+            temp = []
+            for j in range(0, len(vertical_lines) - 1):
+                item = self.blank_image[horizontal_lines[i]:horizontal_lines[i+1],
+                       vertical_lines[j]:vertical_lines[j+1]]
+                # 增加识别代码
+                self.show_image(item)
+                content = self.ocr(item)
+                print(content)
+                temp.append(content)
+            res.append(temp)
+        print(res)
+
+        # 打印三元组
+        for i in range(1, len(horizontal_lines) - 1):
+            for j in range(1, len(vertical_lines) - 1):
+                content = res[i][j]
+                row_label = res[i][0]
+                col_label = res[0][j]
+                print("三元组结果:content:{}row:{}col:{}".format(content, row_label, col_label))
         return rects
 
     # 识别单元格中的文字
-    def ocr(self):
-        rects = self.cell_detect()
-        image = self.blank_image
+    def ocr(self, image):
         # 特殊字符列表
-        special_char_list = '.:\\|\'\"?![],()~@#$%^&*_+-={};<>/¥\n'
-        print(self.vertical_lines)
-        steps = (len(self.vertical_lines) - 1) * (len(self.horizontal_lines) - 1)
-        for i in range(steps):
-            rect1 = rects[i]
-            DetectImage1 = image[rect1[1]:rect1[3], rect1[0]:rect1[2]]
-
-            # Tesseract所在的路径
-            pytesseract.pytesseract.tesseract_cmd = 'C://Program Files (x86)/Tesseract-OCR/tesseract.exe'
-            # 识别数字（每行第一列）
-            text = pytesseract.image_to_string(DetectImage1, config="--psm 10")
-            print(''.join([x for x in text if x not in special_char_list]))
+        special_char_list = ':|\'\"?![]()~#$%^&*_+-={};<>/¥\n'
+        pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+        text = pytesseract.image_to_string(image)
+        print(text)
+        return ''.join([x for x in text if x not in special_char_list])
 
     # 显示图像
-    def show_image(self):
-        cv2.imshow('AI', self.draw())
+    def show_image(self, image):
+        cv2.imshow('cell_res', image)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
 if __name__ == '__main__' :
     ocr = ImageTableOCR("../1.png")
-    ocr.show_image()
-    ocr.ocr()
+    ocr.draw()
+    ocr.cell_detect()
